@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    /* text editing step */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #a03131;
+    line-height: 1.6;
+}
+/* Image Styling */
+.showcase{
+    background-image: url(https://images.unsplash.com/photo-1557600280-9ceddf1a3cc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
+    /* full size page cover image style*/
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* text styling via flex function */
+    display: flex;
+    flex-direction: column;
+    /* text we move center */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+/* h1 text style */
+.showcase h1{
+    font-size: 50px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+}
+
+
+/* p style */
+.showcase p{
+    font-size: 20px;
+    color: black
+}
+
+/* button style */
+.showcase .button{
+    font-size: 18px;
+    /* delete underline */
+    text-decoration: none;
+    color: blueviolet;
+    border: blueviolet 1px solid;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+/* button hover style */
+.showcase .button:hover{
+    background: rgb(157, 99, 211);
+    color: white;
+}
+
+
+
+/* sections style */
+.section-a{
+    padding: 20px;
+    background: #c28282;
+    color: white;
+    text-align: center;
+}
+
+.section-b{
+    padding: 20px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.section-c{
+    display: flex;
+}
+
+.section-c div{
+    padding: 20px;
+}
+
+.section-c .box1, .section-c .box3{
+    background: #c28282;
+    color: #fff;
+}
+
+.section-c .box2{
+    background: #f9f9f9;
+}
